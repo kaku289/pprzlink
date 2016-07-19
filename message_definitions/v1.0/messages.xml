@@ -196,7 +196,9 @@
     <field name="YprU3"     type="float"    unit="deg"/>
   </message>
 
-  <!--24 is free -->
+  <message name="ROUTEINFO" id="24">
+    <field name="isRouteFinished"     type="float"/>
+  </message>
 
   <message name="SVINFO" id="25">
     <field name="chn" type="uint8"/>
